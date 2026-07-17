@@ -128,20 +128,17 @@ a:hover {
 
 /* Sections */
 .section {
-  max-width: var(--max-width);
-  margin: 0 auto;
   padding: 3.5rem 1.5rem;
 }
 
-.section.alt {
-  max-width: none;
-  background: var(--bg-alt);
-}
-
-.section.alt > * {
+.section > * {
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
+}
+
+.section.alt {
+  background: var(--bg-alt);
 }
 
 .section h2 {
